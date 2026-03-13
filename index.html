@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HealthHub — Community Healthcare Platform</title>
+  <meta name="description" content="HealthHub connects communities for better healthcare. Share health experiences, find nearby hospitals, and connect with doctors." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#/" class="nav-logo">
+        <span class="logo-icon">💊</span>
+        <span class="logo-text">Health<span class="logo-accent">Hub</span></span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="#/" class="nav-link" data-page="home">Home</a>
+        <a href="#/community" class="nav-link" data-page="community">Community</a>
+        <a href="#/hospitals" class="nav-link" data-page="hospitals">Hospitals & Doctors</a>
+        <a href="#/map" class="nav-link" data-page="map">Find Hospital</a>
+      </div>
+      <div class="nav-auth" id="nav-auth"></div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="app"></main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3 class="footer-title"><span class="logo-icon">💊</span> Health<span class="logo-accent">Hub</span></h3>
+          <p class="footer-desc">Empowering communities to take charge of their health through connection, information, and support.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <a href="#/">Home</a>
+          <a href="#/community">Community</a>
+          <a href="#/hospitals">Hospitals</a>
+          <a href="#/map">Find Hospital</a>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <a href="#">Health Articles</a>
+          <a href="#">Emergency Contacts</a>
+          <a href="#">Mental Health</a>
+          <a href="#">Nutrition Guide</a>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <p class="footer-contact">📧 support@healthhub.com</p>
+          <p class="footer-contact">📞 +1 (800) HEALTH</p>
+          <div class="footer-socials">
+            <a href="#" class="social-link">𝕏</a>
+            <a href="#" class="social-link">in</a>
+            <a href="#" class="social-link">fb</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 HealthHub. All rights reserved. Built with ❤️ for healthier communities.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
